@@ -34,9 +34,9 @@
      #include "includes/mouse_keys.dtsi"
 #endif
 
-#ifdef HAS_MOUSE_TP
+
      #include "includes/mouse_tp.dtsi"
-#endif
+
 
 #include "includes/custom_keycodes.dtsi"
 #include "includes/settings.dtsi"
