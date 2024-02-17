@@ -1,4 +1,4 @@
-#ifdef HAS_MOUSE_TP
+
   #include <dt-bindings/zmk/mouse_settings.h>
 
  /*
@@ -139,4 +139,4 @@
   };
 
 
-#endif
+
