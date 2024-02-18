@@ -3,7 +3,6 @@
 #define TD_TAPPING_TERM 300
 
 / {
-
     behaviors {
 
         /*
@@ -246,4 +245,5 @@
             bindings = <&mo>, <&sk>;
         };
     };
+
 };
