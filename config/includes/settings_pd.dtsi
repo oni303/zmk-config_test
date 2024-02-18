@@ -3,15 +3,6 @@
  */
 
 
-// Enable power domain on oled display
-&oled {
-    power-domain = <&pd_ext_power>;
-};
-
-// Enable power domain on rgb underglow led strip
-&led_strip {
-    power-domain = <&pd_ext_power>;
-};
 
 // Enable device power management policy on pd_ext_power
 / {
