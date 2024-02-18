@@ -4,15 +4,15 @@
 
 
 
-// Enable device power management policy on pd_ext_power
-/ {
-    dev_pm_policy_1 {
-        compatible = "zmk,dev-pm-policy";
-        device = <&pd_ext_power>;
-        auto-off-on-idle;
-        usb-auto-toggle;
-    };
-};
+// // Enable device power management policy on pd_ext_power
+// / {
+//     dev_pm_policy_1 {
+//         compatible = "zmk,dev-pm-policy";
+//         device = <&pd_ext_power>;
+//         auto-off-on-idle;
+//         usb-auto-toggle;
+//     };
+// };
 
 // Additional power domain for keyboards with mosfet
 // / {
